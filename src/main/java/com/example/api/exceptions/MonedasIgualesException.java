@@ -1,4 +1,4 @@
-package com.example.api;
+package com.example.api.exceptions;
 
 public class MonedasIgualesException extends RuntimeException {
     public MonedasIgualesException() {

@@ -1,10 +1,13 @@
-package com.example.api;
+package com.example.api.service;
 
 import java.util.HashMap;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
+
+import com.example.api.domain.CambioData;
+import com.example.api.exceptions.MonedasIgualesException;
 
 @Service
 public class CambioService {
