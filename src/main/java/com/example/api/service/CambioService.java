@@ -15,7 +15,7 @@ public class CambioService {
     private RestClient restClient;
 
     public CambioService() {
-        this.restClient = RestClient.create("https://api.frankfurter.dev/v1");
+        this.restClient = RestClient.create("http://api.frankfurter.dev/v1");
     }
 
     public Double calcularImporteCambiado(String monedaOrigen, String monedaDestino, Double importe) {
